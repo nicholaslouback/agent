@@ -1,4 +1,5 @@
 import { fastify } from "fastify";
+import { sql } from "./db/connection.ts";
 import { 
   type ZodTypeProvider, 
   serializerCompiler, 

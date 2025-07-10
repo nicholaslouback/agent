@@ -8,4 +8,4 @@ services:
     ports:
       - "5432:5432"
     volumes:
-    - ./docker/setupe.sql:/docker-entrypont-initdb.d/stupe.sql
+    - ./docker/setupe.sql:/docker-entrypont-initdb.d/stup.sql
